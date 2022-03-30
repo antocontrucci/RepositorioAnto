@@ -2,12 +2,18 @@ body{background-image:url(./images/fondo.jpeg) ;}
 h1{color:whitesmoke;}
 #logo{width: 200px;
 display: inline;
-float: right;}
+float: right;
+margin-top: 150px;}
 p{color: white;}
 header{color: white;}
 h3{color: white;}
 #icono-ig{width: 2%;}
 #wapp{width: 2%;}
-header{position: -webkit-sticky;
-top: 0px;background-image:url(./images/pngtree-wall-grain-texture-dark-gray-background-image_779339.jpeg);}
+header{line-height: 55px;
+    position: -webkit-sticky;
+top: 0px;}
 menu > a > li {display: inline;}
+menu > form {display: inline;}
+#logo-menu{width: 80px;
+    display: inline;
+    float: left;}
