@@ -1,11 +1,14 @@
+a{color:white}
 body{background-image:url(./images/fondo.jpeg) ;}
+.navbar{width: 100%;}
 h1{color:whitesmoke;}
+h2{color: whitesmoke;}
+h5{color: whitesmoke;}
 #logo{width: 200px;
 display: inline;
 float: right;
-margin-top: 150px;}
+margin-top: 10px;}
 p{color: white;}
-header{color: white;}
 h3{color: white;}
 #icono-ig{width: 2%;}
 #wapp{width: 2%;}
