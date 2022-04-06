@@ -1,5 +1,6 @@
 body{background-image:url(./images/fondo.jpeg) ;color: white;}
 h1{color: white;}
+#Logo{width: 350PX; float: right;}
 p{color: white;}
 label{color: white;}
 input{color: white;}
@@ -9,4 +10,11 @@ h5{color: whitesmoke;}
 h3{color: white;text-align: center;}
 h4{color: white;}
 #expl{text-align: center;}  
-#radio{color:white;}
+#Radio{color:white;
+    text-align:center;
+    justify-content:space-around;}
+footer{text-align: center;}
+footer > a{color: white;}
+#icono-ig{width: 40px;}
+#wapp{width: 40px;}
+.sc-10gk5i5-3{color: white; }
