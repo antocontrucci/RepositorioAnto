@@ -1,15 +1,15 @@
 a{color:white}
 body{background-image:url(./images/fondo.jpeg) ;}
 .navbar{width: 100%;}
-h1{color:whitesmoke;}
-h2{color: whitesmoke;}
+.carousel-inner{height: 550px;}
+h1{color:whitesmoke;
+text-align: center; background-color: black;padding: 20px;margin-bottom: 0px;}
+h2{color: whitesmoke;text-align: center;}
 h5{color: whitesmoke;}
-#logo{width: 200px;
-display: inline;
-float: right;
-margin-top: 10px;}
 p{color: white;}
-h3{color: white;}
+#expl{text-align: center;}  
+h3{color: white;text-align: center;}
+h4{color: white;}
 #icono-ig{width: 2%;}
 #wapp{width: 2%;}
 header{line-height: 55px;
@@ -20,3 +20,6 @@ menu > form {display: inline;}
 #logo-menu{width: 80px;
     display: inline;
     float: left;}
+footer{text-align: center;}
+footer > a{color: white;}
+ h1{margin-bottom: 0px!important;}
