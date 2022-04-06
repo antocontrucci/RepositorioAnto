@@ -5,20 +5,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hace tu pedido de Sushi</title>
+    <link rel="stylesheet" href="./contacto.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 \    <h1>Hace tu pedido de Sushi</h1>
     <form action="">
-        <label for="nombre">Nombre</label><br>
+        <label for="nombre">Nombre Completo</label><br>
         <input type="text" id="nombre" name="fname"><br>
         <label for="Telefono">Telefono</label><br>
         <input type="text" id="Telefono" name="Telefono"><br>
 <br>
-        Retiro o envio a domicilio <br>
-        <input type="radio">Envio a domicilio<br>
-        <input type="radio">Retiro por el local<br>
-<br>
-
+        <p>Retiro o envio a domicilio <br>
+        <input type="radio"> Envio a domicilio<br>
+        <input type="radio"> Retiro por el local<br>
+<br></p>
+<form class="d-flex">
+    <input class="form-control me-2" id="Search" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success" style="color:white" type="submit">Search</button>
+  </form>
         <br>
+        <h2>Menu</h2>
+        <h3>Piezas individuales</h3>
+        <p id="expl">Todas las piezas individuales vienen de 4, 8 o 12 unidades</p>
+        <h5>CALIFORNIA</h5>
+        <P>(Kanikama, pepino, palta y Philadelphia)</P>
+            <p id="Radio"><input type="radio"> 4 unidades
+            <input type="radio"> 8 unidades
+            <input type="radio"> 12 unidades</p>
+        <h5>TUNAROLL</h5>
+        <p>(Lomito de atun, Philadelphia y ciboulet)</p>
+            <p id="Radio"><input type="radio"> 4 unidades
+            <input type="radio"> 8 unidades
+            <input type="radio"> 12 unidades</p>
+        <h5>HOSOMAKI</h5>
+        <p>(Alga nori, arroz y salmon rosado)</p>
+            <p id="Radio"><input type="radio"> 4 unidades
+            <input type="radio"> 8 unidades
+            <input type="radio"> 12 unidades</p>
+        <h5>MAKIS DE SALMON</h5>
+        <p>(Alga nori, arroz, salmon rosado y palta)</p>
+            <p id="Radio"><input type="radio"> 4 unidades
+            <input type="radio"> 8 unidades
+            <input type="radio"> 12 unidades</p>
+        <h5>DRAGON ROLL</h5>
+        <P>(Langostino rebozado, Philadelphia y piel crocante de salmon)</P>
+            <p id="Radio"><input type="radio"> 4 unidades
+            <input type="radio"> 8 unidades
+            <input type="radio"> 12 unidades</p>
+        <h5>NEW YORK</h5>
+        <p>(Salmon rosado y palta)</p>
+            <p id="Radio"><input type="radio"> 4 unidades
+            <input type="radio"> 8 unidades
+            <input type="radio"> 12 unidades</p>
+        <h5>NEW YORK PHILA</h5>
+        <P>(Salmon rosdado, palta y Philadelphia)</P>
+            <p id="Radio"><input type="radio"> 4 unidades
+            <input type="radio"> 8 unidades
+            <input type="radio"> 12 unidades</p>
+    
+        <h3>Combinados</h3>
+        <p id="expl">Los combos son de 24, 48 y 60 piezas</p>
+        <h4>Combinado SUR</h4>
+        <p>Philaroll Premium</p>
+        <p>Nigris de Salmon</p>
+        <p>Real Roll</p>
+        <p>Brie Roll</p>
+        <p>Boscato Roll</p>
+        <p>Tempura</p>
+        <h4>Combinado ROLL</h4>
+        <p>Tuna Roll</p>
+        <p>California</p>
+        <p>Makis de Salmon</p>
+        <p>Dragon Roll</p>
+        <p>New York</p>
+        <p>New York Phila</p>
+    
 
   <input type="submit" value="Submit">
 
