@@ -5,11 +5,12 @@ body{background-image:url(./images/fondo.jpeg) ;}
 h1{color:whitesmoke;
 text-align: center; background-color: black;padding: 20px;margin-bottom: 0px;}
 h2{color: whitesmoke;text-align: center;}
+h4{color: whitesmoke;}
 h5{color: whitesmoke;}
 p{color: white;}
 #expl{text-align: center;}  
 h3{color: white;text-align: center;}
-h4{color: white;}
+#Sushi{width: 100px;float: left;}
 #icono-ig{width: 40px;}
 #wapp{width: 40px;}
 header{line-height: 55px;
