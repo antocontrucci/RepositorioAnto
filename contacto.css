@@ -10,9 +10,16 @@ h5{color: whitesmoke;}
 h3{color: white;text-align: center;}
 h4{color: white;}
 #expl{text-align: center;}  
+#expl1{text-align: center;word-spacing: 50PX;}
 #Radio{color:white;
     text-align:center;
-    justify-content:space-around;}
+    justify-content:space-around;
+    word-spacing: 80PX;}
+#Sushi{width: 90px;float: left;}
+#Sushi1{width: 60px; float: left;}
+#Sushi2{width: 400px;float:right;}
+#volver{color: white;} 
+#Submit{background-color: rgb(52, 52, 52);}
 footer{text-align: center;}
 footer > a{color: white;}
 #icono-ig{width: 40px;}

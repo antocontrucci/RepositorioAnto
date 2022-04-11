@@ -10,7 +10,9 @@ h5{color: whitesmoke;}
 p{color: white;}
 #expl{text-align: center;}  
 h3{color: white;text-align: center;}
-#Sushi{width: 100px;float: left;}
+#Sushi{width: 90px;float: left;}
+#Sushi1{width: 60px; float: left;}
+#Sushi2{width: 400px;float:right;}
 #icono-ig{width: 40px;}
 #wapp{width: 40px;}
 header{line-height: 55px;
