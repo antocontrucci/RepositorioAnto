@@ -24,6 +24,8 @@ menu > form {display: inline;}
 #logo-menu{width: 80px;
     display: inline;
     float: left;}
+#nosotros{text-align: center;}
+#Historia{text-align: center;}
 footer{text-align: center;}
 footer > a{color: white;}
  h1{margin-bottom: 0px!important;}
