@@ -9,17 +9,18 @@ input{color: white;}
 h2{color: whitesmoke;text-align: center;}
 h5{color: whitesmoke;}
 h3{color: white;text-align: center;}
-h4{color: white;}
+h4{color: white;text-align: center;}
 #Submit1{background-color: rgb(52, 52, 52);text-align: center;}
 #expl{text-align: center;}  
-#expl1{text-align: center;word-spacing: 50PX;}
+th{color: white;}
+
+td{text-align: center;}
 #Radio{color:white;
-    text-align:center;
     justify-content:space-around;
     word-spacing: 80PX;}
 #Sushi{width: 90px;float: left;}
 #Sushi1{width: 60px; float: left;}
-#Sushi2{width: 400px;float:right;margin-right: 520px;}
+#Sushi2{width: 400px;}
 #volver{color: white;} 
 #Submit{background-color: rgb(52, 52, 52);}
 footer{text-align: center;}
@@ -29,3 +30,6 @@ footer > a{color: white;}
 .sc-10gk5i5-3{color: white; }
 .sc-10gk5i5-5{color: white;}
 .bSGoKg {padding: 0px 10px 12px;}
+input{display:inline}
+.form-control{display: inline!important;}
+tbody, td, tfoot, th, thead, tr{border-style: none!important;}
