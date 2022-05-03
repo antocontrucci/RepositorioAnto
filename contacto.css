@@ -13,7 +13,6 @@ h4{color: white;text-align: center;}
 #Submit1{background-color: rgb(52, 52, 52);text-align: center;}
 #expl{text-align: center;}  
 th{color: white;}
-
 td{text-align: center;}
 #Radio{color:white;
     justify-content:space-around;
@@ -23,6 +22,7 @@ td{text-align: center;}
 #Sushi2{width: 400px;}
 #volver{color: white;} 
 #Submit{background-color: rgb(52, 52, 52);}
+.calculadora{text-align: right;}
 footer{text-align: center;}
 footer > a{color: white;}
 #icono-ig{width: 40px;}
