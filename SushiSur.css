@@ -1,7 +1,8 @@
 a{color:white}
 body{background-image:url(./images/fondo.jpeg) ;}
 .navbar{width: 100%;}
-.carousel-inner{height: 550px;}
+.carousel-inner{height: 550px;
+                z-index: 1 ;}
 h1{color:whitesmoke;
 text-align: center; background-color: black;padding: 20px;margin-bottom: 0px;}
 h2{color: whitesmoke;text-align: center;}
@@ -24,6 +25,29 @@ menu > form {display: inline;}
 #logo-menu{width: 80px;
     display: inline;
     float: left;}
+button{background-color: #000000;
+color: white;}
+.dropdown {display: inline-block;
+        position: relative;}
+.dropdown-content {
+        display: none;
+        position: absolute;
+        width: 150px;
+        overflow: auto;
+        z-index: 2;}
+.dropdown:hover .dropdown-content {
+        display: block;}
+.dropdown-content a {
+        display: block;
+        color: #000000;
+        background-color: white;
+        padding: 5px;
+        text-decoration: none;
+      }
+.dropdown-content a:hover {
+        color:black;
+        background-color: #00A4BD;
+      }
 #nosotros{text-align: center;}
 #Historia{text-align: center;}
 footer{text-align: center;}

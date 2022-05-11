@@ -22,30 +22,25 @@
               <li class="nav-item">
                 <a class="nav-link active" style="color:white" aria-current="page" href="#">Home</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" style="color:white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                 MENU
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
+              <div class="dropdown">
+                <a href="#menu"><button>Menu</button></a>
+                <div class="dropdown-content">
+                <a href="#piezai" >Piezas individuales</a>
+                <a href="#hotroll">Hot Roll</a>
+                <a href="#veggies">Veggies</a>
+                <a href="#combs">Combinados SUR</a>
+                <a href="#combr">Combinaods ROLL</a>
+                </div>
+              </div>
+              <li class="nav-item">
+                <a class="nav-link" href="#nosotros" style="color:white">Sobre Nosotros</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#" style="color:white">Sobre Nosotros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" style="color:white" href="#">Contactanos</a>
+                <a class="nav-link active" aria-current="page" style="color:white" href="#redes">Contactanos</a>
               </li>
               <a href="./contacto.html"><button type="button" class="btn btn-primary" > Hace tu pedido</button></a>
               
             </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
-              <button class="btn btn-outline-success" style="color:white" type="submit">Buscar</button>
-            </form>
           </div>
         </div>
       </nav>
@@ -92,8 +87,8 @@
     </div>
     <p> </p>
     <DIV>
-      <h2>Menu</h2>
-      <h3>Piezas individuales</h3>
+      <h2 id="menu">Menu</h2>
+      <h3 id="piezai">Piezas individuales</h3>
       <p id="expl">Todas las piezas individuales vienen de 4, 8 o 12 unidades</p>
       <div class="container">
         <div class="row">
@@ -177,7 +172,7 @@
       </div>
     </div>  
     <DIV>
-      <h4>HOT ROLL</h4>
+      <h4 id="hotroll">HOT ROLL</h4>
       <img src="./images/Captura de Pantalla 2022-04-10 a la(s) 23.13.59.png" id="Sushi" alt="hots">
       <H5>HOT ROLL DE SALMON</H5>
       <P>(salmon rosado, philadelphia, palta y rebozado con panko)</P>
@@ -186,7 +181,7 @@
       <p>(Langostino, philadelphia, arroz y rebozado con panko)</p>
     </DIV>
     <DIV>
-      <h4>VEGGIES</h4>
+      <h4 id="veggies">VEGGIES</h4>
       <img src="./images/Captura de Pantalla 2022-04-10 a la(s) 23.20.20.png" id="Sushi" alt="hotv">
       <h5>VEGGIE HOT PREMIUM</h5>
       <p>(Zanahoria, philadelphia, rebozado con panko, guacamole y batatas fritas por encima)</p>
@@ -200,7 +195,7 @@
     <DIV>
       <h3>Combinados</h3>
       <p id="expl">Los combos son de 24, 48 y 60 piezas</p>
-      <h4>Combinado SUR</h4>
+      <h4 id="combs">Combinado SUR</h4>
       <img src="./images/Captura de Pantalla 2022-04-10 a la(s) 23.23.11.png" id="Sushi2" alt="comb Sur">
       <p>Philaroll Premium</p>
       <p>Nigris de Salmon</p>
@@ -208,7 +203,7 @@
       <p>Brie Roll</p>
       <p>Boscato Roll</p>
       <p>Tempura</p>
-      <h4>Combinado ROLL</h4>
+      <h4 id="combr">Combinado ROLL</h4>
       <img src="./images/Captura de Pantalla 2022-04-10 a la(s) 23.27.40.png" id="Sushi2" alt="combroll">
       <p>Tuna Roll</p>
       <p>California</p>
@@ -241,7 +236,7 @@
       <p> Muchas gracias a todos!</p>
       <h2>Redes Sociales </h2> 
     </DIV>
-<footer>
+<footer id="redes">
  <a href="https://www.instagram.com/sushisur_/"> <img src="./images/instagram-brands luna.svg" id="icono-ig" alt="instagram"></a> 
  <a href="https://api.whatsapp.com/send?phone=5491165528645"> <img src="./images/whatsapp-brands.svg"  id="wapp" alt="Whatsapp">
  </a><br>
