@@ -19,10 +19,10 @@ h3{color: white;text-align: center;}
 #wapp{width: 40px;}
 header{line-height: 55px;
     position: -webkit-sticky;
-top: 0px;}
+        top: 0px;}
 menu > a > li {display: inline;}
 menu > form {display: inline;}
-#logo-menu{width: 80px;
+#logo-menu{width: 100px;
     display: inline;
     float: left;}
 button{background-color: #000000;
