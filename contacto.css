@@ -1,0 +1,36 @@
+body{background-image:url(./images/fondo.jpeg) ;color: white;}
+h1{color: white;}
+#Logo{width: 300PX; float: right;}
+p{color: white;}
+label{color: white;}
+input{color: white;}
+#Search{width: 30%;}
+#completa{width: 40%;}
+h2{color: whitesmoke;text-align: center;}
+h5{color: whitesmoke;}
+h3{color: white;text-align: center;}
+h4{color: white;text-align: center;}
+#Submit1{background-color: rgb(52, 52, 52);text-align: center;}
+#expl{text-align: center;}  
+th{color: white;}
+td{text-align: center;}
+#Radio{color:white;
+    justify-content:space-around;
+    word-spacing: 80PX;}
+#Sushi{width: 90px;float: left;}
+#Sushi1{width: 60px; float: left;}
+#Sushi2{width: 400px;}
+#volver{color: white;} 
+#Submit{background-color: rgb(52, 52, 52);}
+#icalculadora{text-align: center;}
+#calculadora{text-align: right ;}
+footer{text-align: center;}
+footer > a{color: white;}
+#icono-ig{width: 40px;}
+#wapp{width: 40px;}
+.sc-10gk5i5-3{color: white; }
+.sc-10gk5i5-5{color: white;}
+.bSGoKg {padding: 0px 10px 12px;}
+input{display:inline}
+.form-control{display: inline!important;}
+tbody, td, tfoot, th, thead, tr{border-style: none!important;}
