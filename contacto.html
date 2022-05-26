@@ -11,21 +11,22 @@
 <body>
    <h1>Hace tu pedido de Sushi</h1>
    <img src="./Logo Circular.png" id="Logo" alt="logo">
-    <form action="">
-        <div class="row" id="completa">
-            <div class="col">
-              <input type="text" class="form-control" placeholder="Nombre completo" aria-label="Nombre Completo">
-            </div>
-            <div class="col">
-              <input type="text" class="form-control" placeholder="Telefono" aria-label="Telefono">
-            </div>
+   <form target="_blank" action="https://formsubmit.co/acontrucci@itba.edu.ar" method="POST">
+    <div class="form-group">
+      <div class="form-row">
+        <div class="col">
+          <input type="text" name="nombre" class="form-control" placeholder="Nombre" required>
         </div>
-
-<br>
-<form class="d-flex">
-    <input class="form-control me-2" id="Search" type="search" placeholder="Search" aria-label="Search">
-    <button class="btn btn-outline-success" style="color:white" type="submit">Search</button> 
-</form>
+        <div class="col">
+          <input type="email" name="email" class="form-control" placeholder="Email" required>
+        </div>
+      </div>
+      <div>
+          <input type="radio" name="DElivey" class="form-control" placeholder="Delivery" required>
+          <input type="text" name="nombre" class="form-control" placeholder="India tu direccion" required>
+      </div>
+    </div>
+    
     <br>
     <h2>Menu</h2>
     <input type="submit" id="Submit1" value="Piezas individuales">
@@ -343,9 +344,8 @@
         </script>
     </div>
    
-  <input type="submit" id="Submit" value="Submit"><br><br>
-
-    </form>
+    <button type="submit">Send</button>
+</form>
     <button type="button" class="btn-primary"><a href="./index.html" id="volver">Volver a la pagina principal</a> </button>
     <footer>
         <a href="https://www.instagram.com/sushisur_/"> <img src="./images/instagram-brands luna.svg" id="icono-ig" alt="instagram"></a> 
