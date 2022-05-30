@@ -1,8 +1,8 @@
 a{color:white}
 body{background-image:url(./images/fondo.jpeg) ;}
-#head{ position: sticky;
-        top: 0;}
+#navbarSupportedContent{text-align: center;}
 .navbar{width: 100%;}
+.carouselExampleCaptions{height: 600px;}
 .carousel-inner{height: 600px;
                 z-index: 1 ;}
 h1{color:whitesmoke;
