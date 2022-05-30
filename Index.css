@@ -1,6 +1,7 @@
 a{color:white}
 body{background-image:url(./images/fondo.jpeg) ;}
-header{position: sticky;}
+#head{ position: sticky;
+        top: 0;}
 .navbar{width: 100%;}
 .carousel-inner{height: 600px;
                 z-index: 1 ;}
