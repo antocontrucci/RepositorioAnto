@@ -2,7 +2,7 @@ a{color:white}
 body{background-image:url(./images/fondo.jpeg) ;}
 header{position: sticky;}
 .navbar{width: 100%;}
-.carousel-inner{height: 350px;
+.carousel-inner{height: 600px;
                 z-index: 1 ;}
 h1{color:whitesmoke;
 text-align: center; background-color: black;padding: 20px;margin-bottom: 0px;}
