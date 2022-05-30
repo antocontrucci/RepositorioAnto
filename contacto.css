@@ -1,11 +1,13 @@
 body{background-image:url(./images/fondo.jpeg) ;color: white;}
 h1{color: white;}
-#Logo{width: 300PX; float: right;}
+#inputDireccion{width: 720px;}
 p{color: white;}
 label{color: white;}
 input{color: white;}
-#Search{width: 30%;}
 #completa{width: 40%;}
+#menu{text-align: center;}
+.btnbtn-primar{ color: black; text-align: center;}
+a{text-align: center;}
 h2{color: whitesmoke;text-align: center;}
 h5{color: whitesmoke;}
 h3{color: white;text-align: center;}
@@ -19,9 +21,11 @@ td{text-align: center;}
     word-spacing: 80PX;}
 #Sushi{width: 90px;float: left;}
 #Sushi1{width: 60px; float: left;}
-#Sushi2{width: 400px;}
+#Sushi2{width: 400PX;}
 #volver{color: white;} 
-#Submit{background-color: rgb(52, 52, 52);}
+.btnnbtn-primary{background-color: black;color: white; position: sticky;bottom: 10px;}
+.btnnnbtn-primary{background-color: black;color: white;}
+.submit{background-color:blue;color: white;height: 40px; position: sticky;}
 #icalculadora{text-align: center;}
 #calculadora{text-align: right ;}
 footer{text-align: center;}
