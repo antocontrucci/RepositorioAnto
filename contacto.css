@@ -1,6 +1,6 @@
 body{background-image:url(./images/fondo.jpeg) ;color: white;}
 h1{color: white;}
-#inputDireccion{width: 720px;}
+.form-label{width: 60%;}
 p{color: white;}
 label{color: white;}
 input{color: white;}
