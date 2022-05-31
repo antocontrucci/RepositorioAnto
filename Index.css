@@ -7,7 +7,9 @@ body{background-image:url(./images/fondo.jpeg) ;}
                 z-index: 1 ;}
 h1{color:whitesmoke;
 text-align: center; background-color: black;padding: 20px;margin-bottom: 0px;}
-h2{color: whitesmoke;text-align: center;}
+h2{color: whitesmoke;
+        text-align: center;
+        position: static;}
 h4{color: whitesmoke;}
 h5{color: whitesmoke;}
 p{color: white;}
@@ -15,9 +17,12 @@ p{color: white;}
 .col-6{margin-left: 200px;}
 h3{color: white;text-align: center;}
 #nuevo{text-align: left;}
-#Sushi{width: 90px;float: left;}
-#Sushi1{width: 60px; float: left;}
-#Sushi2{width: 400px;float:right;margin-right: 500px;}
+#Sushi{width: 90px;
+        float: left;}
+#Sushi1{width: 60px; 
+        float: left;}
+#Sushi2{width: 400px;
+        float:left; }
 #icono-ig{width: 40px;}
 #wapp{width: 40px;}
 header{line-height: 55px;
