@@ -1,9 +1,9 @@
 a{color:white}
 body{background-image:url(./images/fondo.jpeg) ;}
-#navbarSupportedContent{text-align: center;}
+.container-fluid{text-align: center;}
 .navbar{width: 100%;}
-.carouselExampleCaptions{height: 600px;}
-.carousel-inner{height: 600px;
+.carouselExampleCaptions{height: 500px;}
+.carousel-inner{width: 80%;
                 z-index: 1 ;}
 h1{color:whitesmoke;
 text-align: center; background-color: black;padding: 20px;margin-bottom: 0px;}
@@ -23,6 +23,8 @@ h3{color: white;text-align: center;}
         float: left;}
 #Sushi2{width: 400px;
         float:left; }
+#Sushi21{text-align: center;}
+#nosotros{display: block;}
 #icono-ig{width: 40px;}
 #wapp{width: 40px;}
 header{line-height: 55px;
@@ -61,3 +63,6 @@ color: white;}
 footer{text-align: center;}
 footer > a{color: white;}
  h1{margin-bottom: 0px!important;}
+ #comb{display: inline;}
+.imagen-mitad{width: 100%;}
+.col-6{margin:0px;}

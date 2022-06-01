@@ -338,19 +338,21 @@
 </div>
     <div class="zona_calculadora" id="icalculadora">
         <div class="texto_calcu"></div>
-     <nav> 
         <div class="d-grid gap-2 col-6 mx-auto" id="carrito">
             <button class="btnnbtn-primary" type="button">
                 <div class="zona_calculo2" id="calculadora"></div>
                  <div id="elTotal">  CARRITO   TOTAL: 0 Pesos</div>
                  <button type="submit" class="submit">ENVIAR</button>
             </button>   
-        </div>
-    </nav> 
+        </div>  
+        
+    </div>
 </form>   
         <script>
+            let arrayProducto =[]
             let Total = 0
             function sumaProductos(Valoritem) {
+                arrayProducto.
               Total = Total + Valoritem
               document.getElementById("elTotal").innerHTML = "TOTAL: " + "$" + Total;}
         
