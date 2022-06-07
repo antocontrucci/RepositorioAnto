@@ -106,7 +106,7 @@
             <th scope="row"> <img src="./images/Captura de Pantalla 2022-04-10 a la(s) 21.59.39.png" id="Sushi" alt="new">
                 <h5>NEW YORK</h5>
                 <p>(Salmon rosado y palta)</p></th>
-                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(430)">$430</p></td>
+                <td> <p id="Radio"><input type="radio" onclick="sumaProductos(430, 'New ')">$430</p></td>
                 <td><P><input type="radio" onclick="sumaProductos(840)">$840</P></td>
                 <td><P><input type="radio" onclick="sumaProductos(1250)">$1250</p></td>
             </tr>
@@ -345,7 +345,7 @@
     <div class="zona_calculadora" id="icalculadora">
         <div class="texto_calcu"></div>
         <div class="d-grid gap-2 col-6 mx-auto" id="carrito">
-            <button class="btnnbtn-primary" type="button">
+            <button class="btnnbtn-primary" type="button" disabled>
                 <div class="zona_calculo2" id="calculadora"></div>
                  <div id="elTotal">  CARRITO   TOTAL: 0 Pesos</div>
                  <button type="submit" class="submit">ENVIAR</button>
