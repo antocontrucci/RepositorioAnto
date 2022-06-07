@@ -64,7 +64,7 @@
               <th scope="row"><img src="./images/Captura de Pantalla 2022-04-10 a la(s) 21.59.03.png" id="Sushi" alt="CALIFORNIA">
                 <h5>CALIFORNIA</h5>
                 <P>(Kanikama, pepino, palta y Philadelphia)</P> </th>
-              <td> <p id="Radio"><input type="radio" onclick="sumaProductos(390)">$390</p></td>
+              <td> <p id="Radio"><input type="radio" onclick="sumaProductos(390, 'California x4' )">$390</p></td>
               <td><P><input type="radio" onclick="sumaProductos(760)">$760</P></td>
               <td><P><input type="radio" onclick="sumaProductos(1140)">$1140</p></td>
             </tr>
@@ -351,10 +351,11 @@
         <script>
             let arrayProducto =[]
             let Total = 0
-            function sumaProductos(Valoritem) {
-                arrayProducto.
+            function sumaProductos(Valoritem, Producto) {
+                arrayProducto.push(Producto)
               Total = Total + Valoritem
-              document.getElementById("elTotal").innerHTML = "TOTAL: " + "$" + Total;}
+              document.getElementById("elTotal").innerHTML = "TOTAL: " + "$" + Total; 
+              console.log(arrayProducto)}
         
             function Limpiar() {
               Total=0
