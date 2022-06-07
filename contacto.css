@@ -7,8 +7,8 @@ input{color: white;}
 #inputNombre{width: 65%;}
 #inputDireccion{width: 65%;}
 #completa{width: 40%;}
-#valorProducto{display: none!important;}
-#listaProductos{display: none!important;}
+#valorProducto{visibility: hidden!important;}
+#listaProductos{visibility: hidden!important;}
 #menu{text-align: center;}
 .btnbtn-primar{ color: black; text-align: center;}
 a{text-align: center;}
