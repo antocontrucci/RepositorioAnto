@@ -6,7 +6,10 @@ body{background-image:url(./images/fondo.jpeg) ;}
 .carousel-inner{width: 80%;
                 z-index: 1 ;}
 h1{color:whitesmoke;
-text-align: center; background-color: black;padding: 20px;margin-bottom: 0px;}
+        text-align: center; 
+        background-color: black;
+        padding: 20px;
+        margin-bottom: 0px;}
 h2{color: whitesmoke;
         text-align: center;
         position: static;}
