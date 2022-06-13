@@ -3,10 +3,8 @@ body{background-image:url(./images/fondo.jpeg) ;}
 .container-fluid{text-align: center;}
 .navbar{width: 100%;}
 .carouselExampleCaptions{height: 500px;}
-.carousel-inner{width: 80%;
-                z-index: 1 ;}
-h1{color:whitesmoke;
-        text-align: center; 
+.carousel-inner{width: 80%;z-index: 1 ;}
+h1{color:whitesmoke;text-align: center; 
         background-color: black;
         padding: 20px;
         margin-bottom: 0px;}
